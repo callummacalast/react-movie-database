@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 
 // Styles
-import { Wrapper, Image } from '../Actor/Actor.styles';
+import { Wrapper, Image } from './Actor.styles';
 
-const Actor = ({ name, character, imageUrl }) => (
+const Actor = ({name, character, imageUrl }) => (
     <Wrapper>
-        <Image url={imageUrl} alt="actor-thumb" />
+        <Image src={imageUrl} alt='actor-thumb' />
         <h3>{name}</h3>
         <p>{character}</p>
     </Wrapper>
