@@ -10,6 +10,7 @@ import BreadCrumb from "./BreadCrumb";
 import Grid from "./Grid";
 import Spinner from "./Spinner";
 import MovieInfo from "./MovieInfo";
+import Actor from "./Actor";
 
 // Hook
 import { useMovieFetch } from "../hooks/useMovieFetch";
